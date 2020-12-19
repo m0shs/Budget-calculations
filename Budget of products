@@ -10,7 +10,7 @@ for(i=0; i<arr.length; i++)
 print “Product no.” + (i+1); 
 read arr[i]; 
 end for 
-Total = arr[0]+arr[1];
+Total = Total + arr[i];
 budget = 100;
 print “Total price of products are” + Total; 
 If Total>budget then 
