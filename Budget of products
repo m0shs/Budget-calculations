@@ -1,8 +1,11 @@
-Int i;
-Int arr[2]; 
+Int i, number;
+double budget;
+Int arr[]; 
 double Price = 0;
 double Total = 0;
-print “Enter prices of your two products: “;
+print "Enter how many products you want to calculate";
+read number
+print “Enter prices of products: “;
 for(i=0; i<arr.length; i++) 
 print “Product no.” + (i+1); 
 read arr[i]; 
